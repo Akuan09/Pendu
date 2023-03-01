@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
+    <title>Jeu du pendu</title>
+</head>
+<body>
+    <header>
+        <p id="song" class="fontStyle fontChanga">Musique :</p>
+        <label class="switch">
+            <input type="checkbox" id="music"/>
+            <span><span id="on" class="fontChanga">ON</span><span id="off" class="fontChanga">OFF</span></span>
+        </label>
+        <img id="logo" src="Images/logopendu.png">
+        <div id="score">
+            <ul>
+                <li class="scr fontStyle fontChanga"></li>
+                <li class="scr fontStyle fontChanga"></li>
+                <li class="scr fontStyle fontChanga"></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="container">
+        </div>
+    </main>
+    <script src="js/mots_a_trouver.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
